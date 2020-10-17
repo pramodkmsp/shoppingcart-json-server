@@ -1,102 +1,87 @@
 {
-  "products": [
+  "orders": [
     {
       "id": 1,
-      "name": "Rubik's cube 1",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      "imageUrl": "https://i.pinimg.com/originals/f9/51/cf/f951cfd3baaf74282dfb67ae5a810f8f.gif",
-      "price": 199
+      "customerName": "Rupesh",
+      "address": "Bangalore",
+      "status": "Preparing",
+      "items": [
+        {
+          "itemName": "Pizza",
+          "price": 300,
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": 2,
-      "name": "Rubik's cube 2",
-      "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-      "imageUrl": "https://www.meyerwestip.com.au/wp-content/uploads/2018/02/rubik.png",
-      "price": 249
+      "customerName": "Pramod",
+      "address": "Mysore",
+      "status": "Ready to serve",
+      "items": [
+        {
+          "itemName": "Pizza",
+          "price": 100,
+          "quantity": 2
+        },
+        {
+          "itemName": "Pizza Special",
+          "price": 1150,
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": 3,
-      "name": "Men Watch",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-      "imageUrl": "https://3.imimg.com/data3/CF/DP/MY-4998969/square-watch-250x250.jpg",
-      "price": 299
+      "customerName": "Prajwal",
+      "address": "Manglore",
+      "status": "Order Received",
+      "items": [
+        {
+          "itemName": "Pizza",
+          "price": 400,
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": 4,
-      "name": "Mingle Alert Animation Watch",
-      "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-      "imageUrl": "https://5.imimg.com/data5/SR/DZ/NQ/SELLER-75059155/square-dial-fastrack-watches-500x500.jpg",
-      "price": 399
+      "customerName": "Ravikumar",
+      "address": "Mandya",
+      "status": "Order Received",
+      "items": [
+        {
+          "itemName": "Pizza",
+          "price": 300,
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": 5,
-      "name": "Davis Shoes",
-      "description": "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      "imageUrl": "https://i8.amplience.net/i/office/3339324140_ld1.jpg?$newhighres$",
-      "price": 1999
-    }
-  ],
-  "wishlist": [],
-  "cart": [
-    {
-      "product": {
-        "id": 1,
-        "name": "Rubik's cube 1",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "imageUrl": "https://i.pinimg.com/originals/f9/51/cf/f951cfd3baaf74282dfb67ae5a810f8f.gif",
-        "price": 199
-      },
-      "id": 1
+      "customerName": "Rajesh",
+      "address": "Andrapradesh",
+      "status": "Order Received",
+      "items": [
+        {
+          "itemName": "Pizza",
+          "price": 500,
+          "quantity": 2
+        }
+      ]
     },
     {
-      "product": {
-        "id": 2,
-        "name": "Rubik's cube 2",
-        "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-        "imageUrl": "https://www.meyerwestip.com.au/wp-content/uploads/2018/02/rubik.png",
-        "price": 249
-      },
-      "id": 2
-    },
-    {
-      "product": {
-        "id": 2,
-        "name": "Rubik's cube 2",
-        "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-        "imageUrl": "https://www.meyerwestip.com.au/wp-content/uploads/2018/02/rubik.png",
-        "price": 249
-      },
-      "id": 3
-    },
-    {
-      "product": {
-        "id": 2,
-        "name": "Rubik's cube 2",
-        "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-        "imageUrl": "https://www.meyerwestip.com.au/wp-content/uploads/2018/02/rubik.png",
-        "price": 249
-      },
-      "id": 4
-    },
-    {
-      "product": {
-        "id": 2,
-        "name": "Rubik's cube 2",
-        "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-        "imageUrl": "https://www.meyerwestip.com.au/wp-content/uploads/2018/02/rubik.png",
-        "price": 249
-      },
-      "id": 5
-    },
-    {
-      "product": {
-        "id": 1,
-        "name": "Rubik's cube 1",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "imageUrl": "https://i.pinimg.com/originals/f9/51/cf/f951cfd3baaf74282dfb67ae5a810f8f.gif",
-        "price": 199
-      },
-      "id": 6
+      "id": 6,
+      "customerName": "Ganesh",
+      "address": "Bangalore",
+      "status": "Order Received",
+      "items": [
+        {
+          "itemName": "Pizza",
+          "price": 600,
+          "quantity": 2
+        }
+      ]
     }
   ]
 }
